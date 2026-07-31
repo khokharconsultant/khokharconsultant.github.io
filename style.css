@@ -1009,3 +1009,36 @@ footer p{
 }
 
 }
+/* =========================
+   Service Icons
+========================= */
+
+.service-box{
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    text-align:center;
+    gap:15px;
+}
+
+.service-box .icon{
+    font-size:48px;
+    line-height:1;
+}
+
+.service-box h3{
+    font-size:20px;
+    color:#fff;
+    margin:0;
+    font-weight:600;
+}
+
+.service-box:hover h3{
+    color:#000;
+}
+
+.service-box:hover .icon{
+    transform:scale(1.15);
+    transition:0.3s;
+}
