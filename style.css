@@ -1099,3 +1099,45 @@ footer p{
     color:#fff;
     font-size:18px;
 }
+/* =========================
+   CTA SECTION
+========================= */
+
+.cta{
+    background:#d4af37;
+    color:#000;
+    text-align:center;
+    padding:70px 20px;
+    border-radius:15px;
+    margin:70px 8%;
+}
+
+.cta h2{
+    font-size:38px;
+    margin-bottom:20px;
+}
+
+.cta p{
+    font-size:18px;
+    max-width:800px;
+    margin:auto;
+    line-height:1.8;
+}
+
+.cta-btn{
+    display:inline-block;
+    margin-top:30px;
+    background:#000;
+    color:#fff;
+    padding:16px 35px;
+    text-decoration:none;
+    border-radius:8px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.cta-btn:hover{
+    background:#222;
+    transform:translateY(-3px);
+}
