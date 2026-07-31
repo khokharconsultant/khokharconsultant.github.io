@@ -891,3 +891,12 @@ footer h3{
 footer p{
     font-size:14px;
 }
+/* Hamburger Animation */
+
+.menu-toggle{
+    user-select:none;
+}
+
+.menu.active{
+    display:flex !important;
+}
