@@ -1141,3 +1141,39 @@ footer p{
     background:#222;
     transform:translateY(-3px);
 }
+/* =========================
+   TRUST SECTION
+========================= */
+
+.trust{
+    padding:80px 8%;
+    text-align:center;
+}
+
+.trust h2{
+    color:#d4af37;
+    font-size:38px;
+    margin-bottom:40px;
+}
+
+.trust-grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.trust-box{
+    background:#111;
+    border:1px solid #d4af37;
+    border-radius:12px;
+    padding:25px;
+    font-size:18px;
+    font-weight:600;
+    transition:.3s;
+}
+
+.trust-box:hover{
+    background:#d4af37;
+    color:#000;
+    transform:translateY(-6px);
+}
