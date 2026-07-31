@@ -85,3 +85,5 @@ if (menuToggle && menu) {
             menu.classList.remove("active");
         });
     });
+
+}
