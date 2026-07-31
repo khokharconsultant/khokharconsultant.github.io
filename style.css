@@ -1064,3 +1064,38 @@ footer p{
     transform:scale(1.15);
     transition:.3s;
 }
+/* =========================
+   STATS SECTION
+========================= */
+
+.stats{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(220px,1fr));
+    gap:25px;
+    padding:70px 8%;
+    background:#111;
+}
+
+.stat-box{
+    background:#1b1b1b;
+    border:2px solid #d4af37;
+    border-radius:15px;
+    text-align:center;
+    padding:35px 20px;
+    transition:.3s;
+}
+
+.stat-box:hover{
+    transform:translateY(-8px);
+}
+
+.stat-box h2{
+    color:#d4af37;
+    font-size:42px;
+    margin-bottom:10px;
+}
+
+.stat-box p{
+    color:#fff;
+    font-size:18px;
+}
