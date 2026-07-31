@@ -1042,3 +1042,25 @@ footer p{
     transform:scale(1.15);
     transition:0.3s;
 }
+/* =========================
+   WHY ICONS
+========================= */
+
+.why-icon{
+    display:block;
+    font-size:50px;
+    margin-bottom:15px;
+}
+
+.why-box{
+    transition:0.3s;
+}
+
+.why-box:hover{
+    transform:translateY(-8px);
+}
+
+.why-box:hover .why-icon{
+    transform:scale(1.15);
+    transition:.3s;
+}
