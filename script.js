@@ -87,3 +87,20 @@ if (menuToggle && menu) {
     });
 
 }
+// =========================
+// FAQ Accordion
+// =========================
+
+const faqQuestions = document.querySelectorAll(".faq-question");
+
+faqQuestions.forEach(function(question) {
+
+    question.addEventListener("click", function() {
+
+        const faqItem = question.parentElement;
+
+        faqItem.classList.toggle("active");
+
+    });
+
+});
