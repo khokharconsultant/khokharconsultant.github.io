@@ -104,3 +104,70 @@ faqQuestions.forEach(function(question) {
     });
 
 });
+// FAQ Language - Simple Version
+
+function setFAQLanguage(language) {
+
+    const title = document.getElementById("faqTitle");
+
+    const q1 = document.getElementById("faqQ1");
+    const q2 = document.getElementById("faqQ2");
+    const q3 = document.getElementById("faqQ3");
+    const q4 = document.getElementById("faqQ4");
+    const q5 = document.getElementById("faqQ5");
+    const q6 = document.getElementById("faqQ6");
+
+    if (language === "es") {
+
+        title.innerText = "Preguntas Frecuentes";
+
+        q1.childNodes[0].textContent =
+        "¿Ofrecen asesoría de Visados e Inmigración? ";
+
+        q2.childNodes[0].textContent =
+        "¿Ayudan con solicitudes de Nacionalidad Española? ";
+
+        q3.childNodes[0].textContent =
+        "¿Ayudan con la Creación de Empresas en España? ";
+
+        q4.childNodes[0].textContent =
+        "¿Ofrecen servicios de Impuestos y Contabilidad? ";
+
+        q5.childNodes[0].textContent =
+        "¿Ayudan con Pareja de Hecho? ";
+
+        q6.childNodes[0].textContent =
+        "¿Cómo puedo reservar una consulta? ";
+
+    } else {
+
+        title.innerText = "Frequently Asked Questions";
+
+        q1.childNodes[0].textContent =
+        "Do you provide Visa & Immigration consultancy? ";
+
+        q2.childNodes[0].textContent =
+        "Do you help with Spanish Nationality applications? ";
+
+        q3.childNodes[0].textContent =
+        "Can you help with Business Registration in Spain? ";
+
+        q4.childNodes[0].textContent =
+        "Do you provide Tax & Accounting services? ";
+
+        q5.childNodes[0].textContent =
+        "Do you assist with Pareja de Hecho? ";
+
+        q6.childNodes[0].textContent =
+        "How can I book a consultation? ";
+    }
+}
+// Connect FAQ with language buttons
+
+englishBtn.addEventListener("click", function () {
+    setFAQLanguage("en");
+});
+
+spanishBtn.addEventListener("click", function () {
+    setFAQLanguage("es");
+});
