@@ -1252,3 +1252,78 @@ footer p{
     }
 
 }
+/* =========================
+   FAQ ACCORDION
+========================= */
+
+.faq-item{
+    overflow:hidden;
+}
+
+.faq-question{
+    width:100%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    gap:20px;
+    background:#111;
+    color:#fff;
+    border:none;
+    padding:20px 25px;
+    font-family:'Poppins',sans-serif;
+    font-size:18px;
+    font-weight:600;
+    text-align:left;
+    cursor:pointer;
+}
+
+.faq-question span{
+    color:#d4af37;
+    font-size:28px;
+    font-weight:400;
+    flex-shrink:0;
+}
+
+.faq-answer{
+    display:none;
+    padding:0 25px 20px;
+    background:#111;
+}
+
+.faq-answer p{
+    color:#fff;
+    font-size:16px;
+    line-height:1.7;
+    margin:0;
+}
+
+.faq-item.active .faq-answer{
+    display:block;
+}
+
+.faq-item.active .faq-question{
+    color:#d4af37;
+}
+
+.faq-item.active .faq-question span{
+    transform:rotate(45deg);
+}
+
+/* Mobile FAQ */
+
+@media (max-width:768px){
+
+    .faq-question{
+        padding:18px;
+        font-size:16px;
+    }
+
+    .faq-answer{
+        padding:0 18px 18px;
+    }
+
+    .faq-answer p{
+        font-size:15px;
+    }
+
+}
