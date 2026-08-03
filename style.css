@@ -1177,3 +1177,78 @@ footer p{
     color:#000;
     transform:translateY(-6px);
 }
+/* =========================
+   FAQ SECTION
+========================= */
+
+.faq{
+    padding:80px 8%;
+    background:#050505;
+}
+
+.faq h2{
+    color:#d4af37;
+    font-size:36px;
+    text-align:center;
+    margin-bottom:40px;
+}
+
+.faq-container{
+    max-width:1000px;
+    margin:auto;
+    display:grid;
+    gap:20px;
+}
+
+.faq-item{
+    background:#111;
+    border:1px solid #d4af37;
+    border-radius:12px;
+    padding:25px;
+    transition:0.3s;
+}
+
+.faq-item:hover{
+    transform:translateY(-4px);
+    background:#1b1b1b;
+}
+
+.faq-item h3{
+    color:#d4af37;
+    font-size:20px;
+    margin-bottom:10px;
+}
+
+.faq-item p{
+    color:#fff;
+    font-size:16px;
+    line-height:1.7;
+    margin:0;
+}
+
+/* Mobile FAQ */
+
+@media (max-width:768px){
+
+    .faq{
+        padding:50px 20px;
+    }
+
+    .faq h2{
+        font-size:28px;
+        margin-bottom:30px;
+    }
+
+    .faq-item{
+        padding:20px;
+    }
+
+    .faq-item h3{
+        font-size:18px;
+    }
+
+    .faq-item p{
+        font-size:15px;
+    }
+
+}
