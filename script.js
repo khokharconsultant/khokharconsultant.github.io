@@ -37,10 +37,6 @@ function setFAQLanguage(language) {
             answer: "Yes, we provide accounting, tax and administrative consultancy services for individuals and businesses."
         },
         {
-            question: "Do you assist with Pareja de Hecho?",
-            answer: "Yes, we provide guidance regarding the documentation and administrative process."
-        },
-        {
             question: "How can I book a consultation?",
             answer: "You can contact Khokhar Consultant directly through WhatsApp using the consultation button on our website."
         }
@@ -62,10 +58,6 @@ function setFAQLanguage(language) {
         {
             question: "¿Ofrecen servicios de Impuestos y Contabilidad?",
             answer: "Sí, ofrecemos servicios de asesoramiento en contabilidad, impuestos y gestión administrativa para particulares y empresas."
-        },
-        {
-            question: "¿Ayudan con Pareja de Hecho?",
-            answer: "Sí, ofrecemos orientación sobre la documentación y el procedimiento administrativo de Pareja de Hecho."
         },
         {
             question: "¿Cómo puedo reservar una consulta?",
@@ -155,9 +147,6 @@ if (englishBtn) {
 
         document.getElementById("service10").innerHTML =
             "Official Translation";
-
-        document.getElementById("service11").innerHTML =
-            "Pareja de Hecho";
 
         document.getElementById("service12").innerHTML =
             "Family Benefits";
@@ -315,9 +304,6 @@ if (spanishBtn) {
 
         document.getElementById("service10").innerHTML =
             "Traducción Oficial";
-
-        document.getElementById("service11").innerHTML =
-            "Pareja de Hecho";
 
         document.getElementById("service12").innerHTML =
             "Prestaciones Familiares";
